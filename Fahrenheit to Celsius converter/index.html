@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Fahrenheit to Celsius</title>
+</head>
+<body>
+    <div id="wrapper">
+        <h2>Temperature Converter</h2>
+
+        <div class="conversion-container">
+            <div class="conversion-box1">
+                <h3>Fahrenheit to Celsius</h3>
+                <div class="inputdiv1">
+                    <input type="text" id="input" placeholder="Fahrenheit to Celsius">
+                </div>
+                <div>
+                    <button type="button" onclick="convertertocel()">Convert to Celsicus</button>
+                </div>
+                <div id="CelsicusResult"></div>
+            </div>
+
+            <div class="conversion-box1">
+                <h3>Celsius to Fahrenheit</h3>
+                <div class="inputdiv2">
+                    <input type="input" id="celsiusInput" placeholder="Celsicus to Fahrenheit">
+                </div>
+                <div>
+                    <button type="button" onclick="convertertofah()">Convert to Fahrenheit</button>
+                </div>
+                <div id="FahrenheitResult"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
