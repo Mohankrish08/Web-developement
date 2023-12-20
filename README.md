@@ -12,3 +12,7 @@ An interface that converts Fahrenheit to celsius
 #### 3. Form registration
 This is simple interface for form registration.
 ![](https://github.com/Mohankrish08/Web-developement/blob/main/images/Form%20registration.png)
+
+#### 4. Currency conversion
+A currency conversion application where you can convert money from one type of currency to another.
+![image](images/Currency%20converter.png)
